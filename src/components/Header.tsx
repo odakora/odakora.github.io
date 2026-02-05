@@ -1,8 +1,7 @@
 const Header = () => {
-  return (
-    <header className="flex justify-between items-start pt-16 pb-8">
+  return <header className="flex justify-between items-start pt-16 pb-8">
       <div className="max-w-md">
-        <h1 className="font-display text-5xl font-bold tracking-tight mb-4">
+        <h1 className="text-5xl font-bold tracking-tight mb-4 font-sans">
           Maria Kul
         </h1>
         <p className="font-body text-base leading-relaxed text-muted-foreground">
@@ -22,8 +21,6 @@ const Header = () => {
           CV
         </a>
       </nav>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
