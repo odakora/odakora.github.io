@@ -1,8 +1,6 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
-  return (
-    <footer className="flex justify-between items-center py-12 mt-16 border-t border-border">
+  return <footer className="flex justify-between items-center py-12 mt-16 border-t border-border border-0 border-none">
       <p className="font-body text-sm text-muted-foreground">
         © {currentYear} Maria Kul
       </p>
@@ -17,8 +15,6 @@ const Footer = () => {
           CV
         </a>
       </nav>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
